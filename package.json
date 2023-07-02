@@ -1,0 +1,17 @@
+{
+  "name": "migrate_scripts",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.0",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.26.0",
+    "cli-progress": "^3.12.0",
+    "pocketbase": "^0.15.2"
+  }
+}
